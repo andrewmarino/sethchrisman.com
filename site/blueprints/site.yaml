@@ -1,0 +1,16 @@
+title: Site
+pages:
+  template:
+  - default
+  - blogpost
+fields:
+  title:
+    label: Title
+    type:  text
+  description:
+    label: Description
+    type:  textarea
+  icons:
+    label: Footer Icons
+    icon: text
+    type: textarea

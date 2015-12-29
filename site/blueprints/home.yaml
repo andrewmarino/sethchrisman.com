@@ -1,0 +1,15 @@
+title: Home
+pages: false
+fields:
+  title:
+    label: Title
+    type:  text
+  info:
+    label: Info
+    type: info
+    text: >
+      The home page has no fields. All content is automatically pulled in from other parts of the site.
+
+      * Upcoming shows are dynamically pulled in from the <a href="/panel/pages/performances/edit">Performances</a> page. Kirby will compare each performance date with the today’s date. Once the date has past, the performance will no longer display on the home page.
+
+      * The most recently published post is pulled from the Archive.

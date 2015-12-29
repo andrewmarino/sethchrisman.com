@@ -1,0 +1,19 @@
+title: Project
+pages: false
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  releases:
+    label: Releases
+    type: structure
+    entry: >
+      <a href="{{url}}">{{release_title}}</a>
+    fields:
+      release_title:
+        label: Release Title
+        type: text
+      url:
+        label: URL
+        type: url

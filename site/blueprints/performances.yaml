@@ -1,0 +1,35 @@
+title: Performances
+pages: false
+files: false
+deletable: false
+fields:
+  title:
+    label: Title
+    type: text
+  instructions:
+    label: Instructions
+    type: info
+    text: >
+      This page is specifically used to add, edit, or remove performances. Upcoming performances will be dynamically pulled into the Home page. All performances will display on the Archive page.<br>
+      <br>
+      The booking text field is used to display a fallback message if there are no upcoming dates.
+  performances:
+    label: Performances
+    type: structure
+    style: table
+    fields:
+      date:
+        label: Date
+        format: MM.DD.YYYY
+        type: date
+        required: true
+      location:
+        label: Location
+        type: text
+      roster:
+        label: Bands
+        type: text
+  booking_text:
+    label: Booking Text
+    type: textarea
+    size: small

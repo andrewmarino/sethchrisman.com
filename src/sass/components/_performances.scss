@@ -1,0 +1,28 @@
+.performances {
+	text-align: center;
+	background-color: $transparent;
+
+	.performance-list {
+		margin-top: 1em;
+	}
+
+	span {
+		display: block;
+		// margin-top: 1em;
+	}
+
+	p {
+		margin: 1em 0;
+		font-size: 1em;
+	}
+}
+
+.performance-list {
+	span {
+		display: block;
+	}
+
+	li {
+		margin-bottom: 1em;
+	}
+}

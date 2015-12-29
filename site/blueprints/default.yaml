@@ -1,0 +1,15 @@
+title: Page
+pages:
+  template:
+    - default
+    - blogpost
+files: true
+templates:
+  - Performances
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Text
+    type:  textarea

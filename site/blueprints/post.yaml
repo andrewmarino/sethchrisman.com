@@ -1,0 +1,17 @@
+title: Post
+pages: false
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+    required: true
+  date:
+    label: Date
+    type: date
+    default: today
+    required: true
+  text:
+    label: Content
+    type:  textarea
+    required: true

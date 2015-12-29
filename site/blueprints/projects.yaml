@@ -1,0 +1,14 @@
+title: Projects
+pages:
+  template: project
+deletable: false
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  info:
+    label: Info
+    type: info
+    text: >
+      The Projects page serves as an area to add and keep track of individual projects and their respective albums.

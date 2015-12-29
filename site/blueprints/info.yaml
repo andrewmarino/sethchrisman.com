@@ -1,0 +1,49 @@
+title: Info
+pages: false
+files: true
+deletable: false
+fields:
+  title:
+    label: Title
+    type: text
+    required: true
+  main_img:
+    label: Main Image
+    type: selector
+    mode: single
+    types:
+        - image
+    filter: /\.((png)|(jpe?g))/i
+  main_img_cred:
+    label: Main Image Credit
+    type: text
+  bio:
+    label: Bio
+    type:  textarea
+  bio:
+    label: Bio
+    type:  textarea
+    required: true
+  projects:
+    label: Projects
+    type: info
+    text: >
+      Add, edit, and remove individual projects <a href="/panel/pages/projects/edit">here</a>.
+  mastering_info:
+    label: Mastering Info
+    type: textarea
+    width: 1/2
+  mastering_credits:
+    label: Mastering Credits
+    type: structure
+    width: 1/2
+    entry: >
+          <a href="{{url}}">{{project}}</a>
+    fields:
+      project:
+        label: Project
+        type: text
+        required: true
+      url:
+        label: URL
+        type: url

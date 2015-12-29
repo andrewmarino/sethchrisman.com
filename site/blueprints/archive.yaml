@@ -1,0 +1,14 @@
+title: Archive
+pages:
+  template: post
+files: false
+deletable: false
+fields:
+  title:
+    label: Title
+    type:  text
+  info:
+    label: Info
+    type: info
+    text: >
+      The archive page itself has no fields. All posts and performances will display here (most recent to oldest). 
